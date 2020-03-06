@@ -107,3 +107,8 @@ button[class='swal2-confirm swal2-styled'] {
     border: 0.1rem solid #9b4dca !important;
     color: #fff;
 }
+
+._51m-._51mw {
+    display: flex;
+    justify-content: center;
+}
