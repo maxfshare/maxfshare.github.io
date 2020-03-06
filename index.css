@@ -31,7 +31,7 @@ body {
     margin-bottom: 50px;
 }
 
-input[name='url'] {
+#zero_url {
     width: 85% !important;
 }
 
@@ -39,6 +39,9 @@ input[name='url'] {
     background-color: #9b4dca !important;
     border: 0.1rem solid #9b4dca !important;
     color: #fff;
+}
+
+#zero_btn_submit {
     width: 13% !important;
 }
 
@@ -111,4 +114,55 @@ button[class='swal2-confirm swal2-styled'] {
 ._51m-._51mw {
     display: flex;
     justify-content: center;
+}
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 768px) {
+    .zero_main_content {
+        width: 75%;
+    }
+
+    #zero_url {
+        width: 75% !important;
+    }
+
+    #zero_btn_submit {
+        width: 22% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo h3 {
+        font-size: 1.25rem !important;
+    }
+
+    .zero_body {
+        transform: translate(-50%, -25%) !important;
+    }
+
+    .zero_main_content {
+        width: 80%;
+    }
+
+    .input_wrapper {
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    #zero_url {
+        width: 100% !important;
+    }
+
+    #zero_btn_submit {
+        width: 50% !important;
+        margin-top: 15px;
+    }
+
+    #zero_loading {
+        height: 1.25em;
+        width: 40%;
+        object-fit: cover;
+    }
 }
